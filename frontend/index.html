@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Vite will inject the <title> from your package.json name here or you can set one -->
     <title>BSSC AI Assistant</title>
   </head>
   <body>
     <!-- This is the container where your React app (App.jsx) will be mounted -->
     <div id="root"></div>
-    <!-- Vite automatically injects the bundled JavaScript here during the build -->
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- CRITICAL FIX: Changed path from /src/main.jsx to ./src/main.jsx -->
+    <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>
 
